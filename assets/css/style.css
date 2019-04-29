@@ -1,0 +1,139 @@
+
+body {
+    color: #777777;
+    font-family: Arial, 'Helvetic Neue', Helvetica, sans-serif;
+    margin: auto;
+}
+
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    height: 75px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#name {
+    float: left;
+    display: inline;
+    padding: 30px 20px 30px 20px;
+    margin: 0;
+}
+
+ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 40px;
+    float: right;
+
+}
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: #777777;
+
+}
+
+li {
+    list-style-type: none;
+    border-right: 1px solid #dddddd;
+    display: inline;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+/* flex is used in combination with the flex attribute in the footer to make a 'sticky' footer */
+div {
+    margin: 0 auto;
+    border-top: 2px solid #777777;
+    background: url("gravel.png");
+    flex: 1 0 auto;
+    overflow: auto;
+    clear: both;
+}
+
+main {
+    background-color: #ffffff;
+    clear: left;
+    border: 2px solid #dddddd;
+    padding: 0px 20px 0px 20px;
+    margin: 20px auto;
+    width: 920px;
+    overflow: auto;
+}
+
+.main-header {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+}
+/* my picture */
+#me {
+    float: left;
+    margin-right: 20px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+/* portfolio image placeholders. Probably not positioning these correctly
+as when the size is changed on the images, the layout gets messed up and
+the "Sample" text gets all out of alignment also. */
+.port-img {
+    padding: 0px 20px 10px 0px;
+    clear: both;
+    margin-left: 20px;
+}
+
+#second-box, #fourth-box {
+    margin-left: 28px;
+}
+/*portfolio page */
+h3 {
+    display: inline;
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 10px 20px;
+    width: 360px;
+    margin: 0px 32px 0px 8px;
+    text-align: center;
+    position: relative;
+    top: -70px;
+    left: 20px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 5px #4aaaa5 solid;
+    flex-shrink: 0;
+    color: white;
+    font-size: 60%;
+    text-align: center;
+    padding-bottom: 2px;
+    clear: both;
+}
+
+
+
