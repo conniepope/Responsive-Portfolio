@@ -54,11 +54,10 @@ a:hover {
     color: #4aaaa5;
 }
 /* flex is used in combination with the flex attribute in the footer to make a 'sticky' footer */
-div {
+.container {
     margin: 0 auto;
     border-top: 2px solid #777777;
     background: url("gravel.png");
-    flex: 1 0 auto;
     overflow: auto;
     clear: both;
 }
@@ -97,12 +96,9 @@ input[type=submit] {
     padding: 5px;
     margin-bottom: 10px;
 }
-/* portfolio image placeholders. Probably not positioning these correctly
-as when the size is changed on the images, the layout gets messed up and
-the "Sample" text gets all out of alignment also. */
+
 .port-img {
     padding: 0px 20px 10px 0px;
-    clear: both;
     margin-left: 20px;
 }
 
@@ -134,6 +130,95 @@ footer {
     padding-bottom: 2px;
     clear: both;
 }
+/* can't get main to center so that it has an even amount of background all around*/
+
+@media (max-width: 960px) {
+   header {
+       width: 100%;}
+    body {
+        width: 100%;}
+    main {
+        width: 90%;
+        margin: auto;}
+    .container {
+        width: 100%;
+        padding: 10px}
+    .port-img {
+        width: 300px;
+        float: left;
+        margin: auto;
+        padding: 10px;
+    } 
+    #portfolio-images {
+        margin: auto;
+    }
+    h3 {
+        clear: both;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;}
+    body {
+        width: 100%;}
+    main {
+        width: 80%;
+        margin: auto;
+    }
+    .container {
+        margin: auto;
+}
+
+@media (max-width: 640px) {
+    ul {
+        clear: both;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        border-bottom: 2px solid #777777;
+    }
+    body {
+        width: 100%;
+        margin: 0;}
+
+    main {
+        width: 80%;
+        margin: 20px auto;
+    }
+        
+    header {
+        background-color: #4aaaa5;
+        height: 100px;
+        text-align: center; 
+        width: 100%;    
+    }
+    #name {
+        float: none;
+        position: relative;
+        top: 20px;        
+    }
+
+    #me {
+        float: none;
+        margin: auto;
+        width: 85%;
+        display: block;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .main-header {
+        margin-top: 10px;}
+    
+    .container {
+        padding-top: 20px;
+    }
+
+}
+
 
 
 
