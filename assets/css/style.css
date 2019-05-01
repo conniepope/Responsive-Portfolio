@@ -139,23 +139,32 @@ footer {
         width: 100%;}
     main {
         width: 90%;
-        margin: auto;}
+        margin: auto;
+}
     .container {
-        width: 100%;
-        padding: 10px}
+        padding: 20px 0}
+
     .port-img {
-        width: 300px;
-        float: left;
-        margin: auto;
-        padding: 10px;
-    } 
-    #portfolio-images {
-        margin: auto;
-    }
+        width: 44%;
+        padding: 0;
+        margin-left: 15px;
+        position: relative;
+        }
+
     h3 {
-        clear: both;
+    display: inline;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 44%;
+    position: relative;
+    }
+    #first-box, #third-box {
+        margin-left: 3px;
     }
 
+    #second-box, #fourth-box {
+        margin-left: 35px;
 }
 
 @media (max-width: 768px) {
