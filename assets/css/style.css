@@ -33,7 +33,7 @@ ul {
     float: right;
 
 }
-a {
+nav a {
     padding: 8px;
     text-decoration: none;
     color: #777777;
@@ -50,10 +50,10 @@ li:last-child {
     border-right: none;
 }
 
-a:hover {
+nav a:hover {
     color: #4aaaa5;
 }
-/* flex is used in combination with the flex attribute in the footer to make a 'sticky' footer */
+
 .container {
     margin: 0 auto;
     border-top: 2px solid #777777;
@@ -98,26 +98,28 @@ input[type=submit] {
 }
 
 .port-img {
-    padding: 0px 20px 10px 0px;
-    margin-left: 20px;
+    width: 400px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-#second-box, #fourth-box {
-    margin-left: 28px;
+.port-img img {
+    width: 100%;
 }
+
 /*portfolio page */
 h3 {
-    display: inline;
+    width: 100%;
     color: white;
     background-color: #4aaaa5;
-    float: left;
-    padding: 10px 20px;
-    width: 360px;
-    margin: 0px 32px 0px 8px;
+    padding: 10px 0;
     text-align: center;
-    position: relative;
-    top: -70px;
-    left: 20px;
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    float: left;
 }
 
 footer {
@@ -130,17 +132,19 @@ footer {
     padding-bottom: 2px;
     clear: both;
 }
-/* can't get main to center so that it has an even amount of background all around*/
 
 @media (max-width: 960px) {
    header {
-       width: 100%;}
+       width: 100%;
+    }
     body {
-        width: 100%;}
+        width: 100%;
+    }
     main {
         width: 90%;
         margin: auto;
-}
+    }
+
     .container {
         padding: 20px 0}
 
@@ -149,36 +153,24 @@ footer {
         padding: 0;
         margin-left: 15px;
         position: relative;
-        }
-
-    h3 {
-    display: inline;
-    margin: auto;
-    padding-left: 0;
-    padding-right: 0;
-    width: 44%;
-    position: relative;
-    }
-    #first-box, #third-box {
-        margin-left: 3px;
     }
 
-    #second-box, #fourth-box {
-        margin-left: 35px;
-}
 
 @media (max-width: 768px) {
     header {
-        width: 100%;}
-    body {
-        width: 100%;}
-    main {
-        width: 80%;
-        margin: auto;
+        width: 100%;
     }
-    .container {
-        margin: auto;
-}
+    body {
+        width: 100%;
+    }
+
+    h3 {
+        padding: 5px 0;
+    }
+  
+  
+
+ 
 
 @media (max-width: 640px) {
     ul {
@@ -191,11 +183,12 @@ footer {
     }
     body {
         width: 100%;
-        margin: 0;}
+        margin: 0;
+    }
 
     main {
         width: 80%;
-        margin: 20px auto;
+        margin: auto;
     }
         
     header {
@@ -220,13 +213,17 @@ footer {
         font-size: 2em;
     }
     .main-header {
-        margin-top: 10px;}
-    
+        margin-top: 10px;
+    }
+
     .container {
         padding-top: 20px;
     }
+    /* can't get images to be the same amount of space in between them. */
+    .port-img {
+        width: 90%;
+    }
 
-}
 
 
 
