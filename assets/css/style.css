@@ -5,7 +5,6 @@ body {
     margin: auto;
 }
 
-
 header {
     width: 960px;
     margin: 0 auto;
@@ -13,14 +12,13 @@ header {
 }
 
 h1 {
-    background-color: #4aaaa5;
+    background-color: #3556b5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #name {
     float: left;
-    display: inline;
     padding: 30px 20px 30px 20px;
     margin: 0;
 }
@@ -31,13 +29,16 @@ ul {
     padding: 0;
     top: 40px;
     float: right;
-
 }
+
 nav a {
     padding: 8px;
     text-decoration: none;
     color: #777777;
+}
 
+nav a:hover {
+    color: #3556b5;
 }
 
 li {
@@ -50,10 +51,6 @@ li:last-child {
     border-right: none;
 }
 
-nav a:hover {
-    color: #4aaaa5;
-}
-
 .container {
     margin: 0 auto;
     border-top: 2px solid #777777;
@@ -62,6 +59,13 @@ nav a:hover {
     clear: both;
 }
 
+.main-header {
+    background-color: #ffffff;
+    color: #3556b5;
+    border-bottom: 3px solid #dddddd;
+}
+
+/* ABOUT ME PAGE ---------------------------- */
 main {
     background-color: #ffffff;
     clear: left;
@@ -72,11 +76,6 @@ main {
     overflow: auto;
 }
 
-.main-header {
-    background-color: #ffffff;
-    color: #4aaaa5;
-    border-bottom: 3px solid #dddddd;
-}
 /* my picture */
 #me {
     float: left;
@@ -85,46 +84,84 @@ main {
     margin-bottom: 10px;
 }
 
-input[type=text], textarea {
-    width: 100%;
+/* CONTACT PAGE ------------------------------- */
+strong {
+    color: #3556b5;
 }
 
-input[type=submit] {
+/* input[type=text], textarea {
+    width: 100%;
+} */
+
+/* input[type=submit] {
     width: 100px;
-    background-color: #4aaaa5;
+    background-color: #3556b5;
     color: white;
     padding: 5px;
     margin-bottom: 10px;
+} */
+
+/* RESUME PAGE -------------------------------- */
+#resume {
+    border: 2px groove black;
+    box-shadow: 5px 5px 2px gray;
+    margin-bottom: 20px;
 }
 
+#resume-link {
+    text-align: center;
+}
+
+/* PORTFOLIO BUTTONS PAGE -----------------------*/
+.port-button {
+    color: white;
+    background-color: #3556b5;
+    padding: 15px 15px;
+    text-align: center;
+    width: 50%;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* WEB DESIGN PAGE ---------------------------- */
 .port-img {
     width: 400px;
     position: relative;
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 85px;
+    border: 1px 1px black;
 }
 
 .port-img img {
     width: 100%;
 }
 
-/*portfolio page */
-h3 {
+.port-titles {
     width: 100%;
     color: white;
-    background-color: #4aaaa5;
+    background-color: #3556b5;
     padding: 10px 0;
     text-align: center;
     margin: 0;
     position: absolute;
-    bottom: 20px;
     float: left;
 }
 
+.code-link {
+    color: #3556b5;
+    position: relative;
+    top: 50px;
+    text-align: center
+}
+
+
+
 footer {
     background-color: #666666;
-    border-top: 5px #4aaaa5 solid;
+    border-top: 5px #3556b5 solid;
     flex-shrink: 0;
     color: white;
     font-size: 60%;
@@ -133,6 +170,7 @@ footer {
     clear: both;
 }
 
+/* MEDIA QUERIES ------------------------------ */
 @media (max-width: 960px) {
    header {
        width: 100%;
@@ -168,6 +206,9 @@ footer {
         padding: 5px 0;
     }
   
+    .port-button {
+        width: 75%;
+    }
   
 
  
@@ -192,7 +233,7 @@ footer {
     }
         
     header {
-        background-color: #4aaaa5;
+        background-color: #3556b5;
         height: 100px;
         text-align: center; 
         width: 100%;    
@@ -219,10 +260,13 @@ footer {
     .container {
         padding-top: 20px;
     }
-    /* can't get images to be the same amount of space in between them. */
+
     .port-img {
         width: 90%;
     }
+
+    .port-button {
+        width: 90%;
 
 
 
