@@ -132,11 +132,12 @@ strong {
     float: left;
     margin-right: 20px;
     margin-bottom: 85px;
-    border: 1px 1px black;
+
 }
 
 .port-img img {
     width: 100%;
+    border: 1px solid black;
 }
 
 .port-titles {
@@ -148,6 +149,7 @@ strong {
     margin: 0;
     position: absolute;
     float: left;
+
 }
 
 .code-link {
