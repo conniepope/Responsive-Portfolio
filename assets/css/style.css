@@ -132,7 +132,6 @@ strong {
     float: left;
     margin-right: 20px;
     margin-bottom: 85px;
-
 }
 
 .port-img img {
@@ -140,6 +139,7 @@ strong {
     border: 1px solid black;
 }
 
+/* when uploaded to Github, these titles display incorrectly until the page is refreshed...can't figure out why. Looks fine in VScode/browser. */
 .port-titles {
     width: 100%;
     color: white;
@@ -149,7 +149,6 @@ strong {
     margin: 0;
     position: absolute;
     float: left;
-
 }
 
 .code-link {
@@ -158,8 +157,6 @@ strong {
     top: 50px;
     text-align: center
 }
-
-
 
 footer {
     background-color: #666666;
@@ -195,7 +192,6 @@ footer {
         position: relative;
     }
 
-
 @media (max-width: 768px) {
     header {
         width: 100%;
@@ -212,9 +208,6 @@ footer {
         width: 75%;
     }
   
-
- 
-
 @media (max-width: 640px) {
     ul {
         clear: both;
@@ -252,9 +245,11 @@ footer {
         width: 60%;
         display: block;
     }
+
     h1 {
         font-size: 2em;
     }
+
     .main-header {
         padding-top: 20px;
     }
