@@ -148,7 +148,7 @@ strong {
     text-align: center;
     margin: 0;
     position: absolute;
-    float: left;
+    /* float: left; */
 }
 
 .code-link {
@@ -157,6 +157,8 @@ strong {
     top: 50px;
     text-align: center
 }
+
+/* FOOTER ------------------------------ */
 
 footer {
     background-color: #666666;
