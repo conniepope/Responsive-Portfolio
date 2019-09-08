@@ -21,6 +21,7 @@ h1 {
     float: left;
     padding: 30px 20px 30px 20px;
     margin: 0;
+
 }
 
 ul {
@@ -74,6 +75,8 @@ main {
     margin: 20px auto;
     width: 920px;
     overflow: auto;
+    box-shadow: 0 3px 3px 0 #000000;
+
 }
 
 /* my picture */
@@ -82,6 +85,7 @@ main {
     margin-right: 20px;
     overflow: auto;
     margin-bottom: 10px;
+    box-shadow: 0 3px 5px 0 #000000;
 }
 
 /* CONTACT PAGE ------------------------------- */
@@ -123,6 +127,8 @@ strong {
     margin-bottom: 20px;
     text-decoration: none;
     display: block;
+    box-shadow: 0 4px 3px 0 #000000;
+
 }
 
 /* WEB DESIGN PAGE ---------------------------- */
@@ -137,6 +143,7 @@ strong {
 .port-img img {
     width: 100%;
     border: 1px solid black;
+    box-shadow: 0 2px 3px 0 #000000;
 }
 
 /* when uploaded to Github, these titles display incorrectly until the page is refreshed...can't figure out why. Looks fine in VScode/browser. */
@@ -148,6 +155,7 @@ strong {
     text-align: center;
     margin: 0;
     position: absolute;
+    box-shadow: 0 3px 3px 0 #000000;
     /* float: left; */
 }
 
