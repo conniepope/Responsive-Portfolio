@@ -108,6 +108,7 @@ strong {
     border: 2px groove black;
     box-shadow: 5px 5px 2px gray;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 #resume-link {
