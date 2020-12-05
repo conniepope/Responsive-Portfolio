@@ -148,7 +148,6 @@ strong {
     position: relative;
 }
 
-/* when uploaded to Github, these titles display incorrectly until the page is refreshed...can't figure out why. Looks fine in VScode/browser. */
 .port-titles {
     width: 100%;
     color: white;
