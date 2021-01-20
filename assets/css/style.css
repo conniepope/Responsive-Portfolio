@@ -158,7 +158,7 @@ strong {
     position: absolute;
     box-shadow: 0 3px 3px 0 #000000;
     -webkit-box-shadow: 0 3px 3px 0 #000000;
-    /* float: left; */
+    overflow: hidden;    
 }
 
 .code-link {
